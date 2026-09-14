@@ -1,0 +1,3 @@
+typing
+legacy-cgi
+PyWSGIRef >= 1.1.15
