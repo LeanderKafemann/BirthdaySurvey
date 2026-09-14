@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gegebene Antworten</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/gameSurvey.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <link rel="manifest" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/manifests/gameSurveyManifest.json"/>
+    </head>
+    <body>
+        <div class="backgroundOverlay"></div>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h1>Ergebnisse</h2>
+                    <p>{}</p>
+                    <p>
+                        <a href="https://lkunited.pythonanywhere.com/private/gameSurvey">Zur&uuml;ck zur Umfrage</a>
+                    </p>
+                    <p style="font-size: 6px">
+                        Version <{{evalPyHTML-eval: __version__ :eval-}}>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

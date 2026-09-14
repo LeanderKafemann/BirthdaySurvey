@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Umfrage</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/gameSurvey.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <meta charset="utf-8"/>
+        <link rel="manifest" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/manifests/gameSurveyManifest.json"/>
+    </head>
+    <body>
+        <div class="backgroundOverlay"></div>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2 class="greatTextMargin">Torneamentum ludorum Leandri VI</h2>
+                    <h3 class="textMargin"><font color="gold">Caesar Leandrus suo honorem te invitandi dat.</font></h3>
+                    <p>
+                        <b>Salvete, amici!</b><br/><br/>
+
+                        Quis: <b>Caesar Leandrus</b> et sui amici<br/>
+                        Quid: Torneamentum ludorum (<b>tam sempre</b>)<br/>
+                        Quando: <b>3.-5. Octobris</b> anni Domini MMXXVI<br/>
+                        Ubi: <b>Jungbornstraße 47</b><br/><br/>
+
+                        Quid <b>tibi</b> opus est:<br/>
+                        -ludus (vel ludorum) tibi placens ad ludendum<br/>
+                        -<b>sensus bonus</b><br/>
+                        -res tua ad dormiendum (si vis dormire)<br/><br/>
+
+                        Quid faciemus:<br/>
+                        -ludemus (<b>asine!</b>)<br/><br/>
+
+                        <b>Quaeso respondeas hanc quaestionem!</b><br/>
+                        <b><a href="https://lkunited.pythonanywhere.com/private/gameSurvey">quaestionem respondere</a></b><br/><br/>
+
+                        <b>Valete!</b><br/>
+                    </p>
+                    <p style="font-size: 6px;">
+                        <b>Warum ist das auf Latein?</b><br/>
+                        Das wirst du schon fr&uuml;h genug herausfinden, wenn du kommst.<br/>
+                        Aber keine Sorge, die Umfrage ist auf Deutsch.<br/>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

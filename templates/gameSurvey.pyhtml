@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Umfrage</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/gameSurvey.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <meta charset="utf-8"/>
+        <link rel="manifest" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/manifests/gameSurveyManifest.json"/>
+    </head>
+    <body>
+        <div class="backgroundOverlay"></div>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2 class="greatTextMargin">Umfrage zum Spieleturnier VI</h2>
+                    <h3 class="textMargin">Bitte f&uuml;lle die folgenden Felder aus.</h3>
+                    <form method="post" action="https://lkunited.pythonanywhere.com/private/evaluateGameSurvey">
+                        <input type="text" name="name" placeholder="Vorname"/><br/>
+                        <input type="text" name="fav" placeholder="Lieblingsspiel"/><br/>
+                        <input type="text" name="msg" placeholder="Was du noch mitteilen willst"/><br/><br/>
+                        Kannst du kommen? <input type="radio" name="can" value="nein"/> nein <input type="radio" name="can" value="ja" checked/> ja<br/><br/>
+                        An welchen Tagen kannst du kommen?<br/>
+                        <input type="radio" name="day" value="nur Tag 1"/> nur Tag 1 <input type="radio" name="day" value="nur Tag 2"/> nur Tag 2
+                        <input type="radio" name="day" value="nur Tag 3"/> nur Tag 3<br/>
+                        <input type="radio" name="day" value="nur Tag 1 2"/> nur Tag 1 und 2 <input type="radio" name="day" value="nur Tag 1 und 3"/> nur Tag 1 und 3
+                        <input type="radio" name="day" value="nur Tag 2 und 3"/> nur Tag 2 und 3<br/>
+                        <input type="radio" name="day" value="ja" checked/> alle Tage<br/><br/>
+                        <input type="password" name="id" placeholder="ID"/><br/>
+                        <input type="submit" class="login_button" value="Senden"/>
+                    </form>
+                    <p>
+                        Ich freue mich auf deine Teilnahme!<br/>
+                    </p>
+                    <p style="font-size: 6px;">
+                        p.s.: Du kannst diese Seite auch als App installieren,<br/>
+                        indem du sie zu deinem Startbildschirm hinzuf&uuml;gst.<br/><br/>
+                        p.p.s.: Bitte nimm nur einmal teil und versuche nicht, die Umfrage zu manipulieren.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

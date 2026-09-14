@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Umfrage</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/gameSurvey.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <meta charset="utf-8"/>
+        <link rel="manifest" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/manifests/gameSurveyManifest.json"/>
+    </head>
+    <body>
+        <div class="backgroundOverlay"></div>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h3>
+                        {}
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
