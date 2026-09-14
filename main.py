@@ -33,7 +33,7 @@ def saveGameSurvey(form: FieldStorage):
                 color = "green"
             if can == "nein":
                 color = "red"
-            if not name in c:
+            if not name + " <" in c:
                 with open("./gameSurvey.txt", "a", encoding="utf-8") as f:
                     f.write(f"<br/><details><summary>{name} <font color='{color}'>●</font></summary><br/>Lieblingsspiel: {fav}<br/>Weiteres: {fur}<br/>Kann kommen: {can}<br/>Bleibt alle Tage: {day}<br/></details>")
                 return SCHABLONEN["evaluateGameSurvey"].decoded().format(EVALUATE_GAME_INSERT)
