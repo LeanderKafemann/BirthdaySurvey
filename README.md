@@ -10,7 +10,9 @@ If you find bugs, what isn't that unlikely, send me a PR or issue.
 1. Clone the repo
 2. Get yourself a server. I recommend pythonanywhere.com, which is explicitly supported by the package PyWSGIRef I used (and programmed myself).
 3. Configure the server to run the main.py file. If you need help, look in other repositories like AsteroidsPREMIUM where I configured it correctly.
-4. Finetune the links in the templates and strings.py to fit your personal app.
+4. Install PyWSGIRef on the server using python -m pip install PyWSGIRef
+5. Finetune the links in the templates and strings.py to fit your personal app.
 5. Upload main.py, strings.py, gameSurvey.txt and the content of the templates folder.
 6. Reconfigure the style if needed or send a PR to BueroOSToolkitDevelopment/LKWEB-Backend.
-7. Enjoy!
+
+Enjoy!
