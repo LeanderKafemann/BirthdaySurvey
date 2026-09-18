@@ -23,7 +23,7 @@
                         An welchen Tagen kannst du kommen?<br/>
                         <input type="radio" name="day" value="nur Tag 1"/> nur Tag 1 <input type="radio" name="day" value="nur Tag 2"/> nur Tag 2
                         <input type="radio" name="day" value="nur Tag 3"/> nur Tag 3<br/>
-                        <input type="radio" name="day" value="nur Tag 1 2"/> nur Tag 1 und 2 <input type="radio" name="day" value="nur Tag 1 und 3"/> nur Tag 1 und 3
+                        <input type="radio" name="day" value="nur Tag 1 und 2"/> nur Tag 1 und 2 <input type="radio" name="day" value="nur Tag 1 und 3"/> nur Tag 1 und 3
                         <input type="radio" name="day" value="nur Tag 2 und 3"/> nur Tag 2 und 3<br/>
                         <input type="radio" name="day" value="ja" checked/> alle Tage<br/><br/>
                         <input type="password" name="id" placeholder="ID"/><br/>
